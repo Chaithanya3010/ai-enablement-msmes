@@ -109,7 +109,7 @@ function App() {
           <nav className={open ? "open" : ""}>
             {[
               "Programme",
-              ,
+              "Contact",
               "Impact",
               "Journey",
               "Eligibility",
@@ -394,10 +394,10 @@ function App() {
           </div>
         </section>
       </main>
-      <footer>
+      <footer id="contact">
         <div className="wrap foot">
           <Brand />
-          <p>AI Enablement for MSMEs · Learn · Implement · Grow</p>
+          <p>Email: <a href="mailto:dinu.shine@sahyadri.edu.in">dinu.shine@sahyadri.edu.in</a></p> <p>Phone: <a href="tel:+91 7012773704">+91 7012773704</a></p>
           <a href="#top">Back to top ↑</a>
         </div>
       </footer>
